@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Auth0ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <envs>
+      <env name="AUTH0_AUDIENCE" value="https://hola.com" />
+      <env name="AUTH0_ISSUER_URI" value="https://dev-j4vpfn2d21vvfwbl.us.auth0.com" />
+      <env name="CORS_ALLOWED_ORIGIN" value="http://localhost:5173" />
+      <env name="SPRING_SECURITIY_LOG_LEVEL" value="INFO" />
+      <env name="WEB_SECURITY_DEBUG" value="true" />
+    </envs>
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <module name="Oauth0_Backend.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.auth0api.Auth0ApiApplication" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.example.auth0api.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
